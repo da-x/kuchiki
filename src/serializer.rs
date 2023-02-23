@@ -91,6 +91,7 @@ impl NodeRef {
             self,
             SerializeOpts {
                 traversal_scope: IncludeNode,
+                close_childless_elements: true,
                 ..Default::default()
             },
         )
